@@ -1,0 +1,53 @@
+body{
+    background-color: #000;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.cuerpo-vela{
+    background-color: rgb(219, 195, 175);
+    width: 90px;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30%;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);   
+}
+
+.mecha{
+    width: 10px;
+    height: 30px;
+    background-color: brown;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgba(139, 69, 19, 0.5);
+}
+
+.fuego{
+    width: 40px;
+    height: 110px;
+    background: radial-gradient(circle at 50% 20%, yellow, orange, red);
+    position: absolute;
+    left: 48%;
+    border-radius: 50% 50% 50% 50%;
+    transform: translate(-7%, -90%);
+    box-shadow: 0 0 20px 5px rgba(255, 165, 0, 0.5);
+}
+
+.luz {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255, 255, 0, 0.3), transparent 70%);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 5;
+}
